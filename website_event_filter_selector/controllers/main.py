@@ -1,8 +1,9 @@
 # Copyright 2016-2017 Jairo Llopis <jairo.llopis@tecnativa.com>
 # License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 
-from odoo import _, http
 from odoo.addons.website_event.controllers.main import WebsiteEventController
+
+from odoo import _, http
 
 
 class WebsiteEvent(WebsiteEventController):

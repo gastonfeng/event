@@ -1,8 +1,9 @@
 # Copyright 2016 Jairo Llopis <jairo.llopis@tecnativa.com>
 # License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 
-from odoo.tests.common import HttpCase
 from datetime import datetime, timedelta
+
+from odoo.tests.common import HttpCase
 
 
 class UICase(HttpCase):
